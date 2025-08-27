@@ -5,12 +5,12 @@ import pandas as pd
 import streamlit as st
 import qrcode
 
-st.set_page_config(page_title="Uzun Kod Oluşturma Programı — v7 / Statik", page_icon="🧩", layout="wide")
+st.set_page_config(page_title="Uzun Kod — v8 / Statik", page_icon="🧩", layout="wide")
 header = st.container()
 with header:
     left, right = st.columns([6,1])
     with left:
-        st.title("Uzun Kod Oluşturma Programı — v7 / Statik")
+        st.title("Uzun Kod Oluşturma Programı — v8/ Statik")
         st.caption("Format: 'MakineTipi' + seçilen 'ValueCode'lar + sayısal alanlar (gerekirse önekle). Örn: **CMC SIE AT 2500 D1300**")
     with right:
         try:
